@@ -1,0 +1,61 @@
+@media (min-width: 64em) {
+  html {
+    font-size: 70%;
+  }
+
+  .container {
+    margin: 0 14.4rem;
+  }
+
+  .section-space {
+    margin-bottom: 4rem;
+  }
+
+  .section-hero,
+  .search-hero {
+    padding-right: 45rem;
+  }
+
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+
+  .hero-btn:link,
+  .hero-btn:visited {
+    font-size: 1.6rem;
+  }
+
+  .section-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.6rem;
+    margin-bottom: 9.6rem;
+  }
+
+  .search-container {
+    margin: 0 14.4rem;
+  }
+
+  .search-btn {
+    font-size: 1.4rem;
+  }
+
+  /* ---SEARCH_RESULT--- */
+
+  .search-result {
+    margin: 6rem 24.4rem;
+  }
+
+  .movie-poster {
+    max-width: 15vw;
+  }
+
+  .plot-summary {
+    margin-right: 8rem;
+  }
+
+  .awards {
+    flex-direction: row;
+    column-gap: 20px;
+  }
+}
