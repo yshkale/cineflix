@@ -33,7 +33,7 @@ const getMovie = async function () {
     spinner.insertAdjacentHTML("afterbegin", spinnerMarkup);
 
     const res = await fetch(
-      `http://www.omdbapi.com/?apikey=85457fb9&t=${userInput}`
+      `https://www.omdbapi.com/?apikey=85457fb9&t=${userInput}`
     );
 
     spinner.style.display = "none";
